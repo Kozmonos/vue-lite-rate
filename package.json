@@ -1,0 +1,41 @@
+{
+  "name": "vue-lite-rate",
+  "description": "Vue rate/star component",
+  "version": "1.0.0",
+  "main": "dist/star.common.js",
+  "unpkg": "dist/star.umd.min.js",
+  "bugs": {
+    "url": "hhttps: //github.com/Kozmonos/vue-lite-rate/issues"
+  },
+  "homepage": "https: //github.com/Kozmonos/vue-lite-rate#readme",
+  "license": "ISC",
+  "author": {
+    "name": "Onur Ayçiçek",
+    "email": "onur@kozmonos.com",
+    "url": "https://kozmonos.com/"
+  },
+  "keywords": [
+    "vue rate component",
+    "vue rating",
+    "rate",
+    "vue rate",
+    "vue star",
+    "vue star component"
+  ],
+  "files": [
+    "dist/**/*",
+    "assets/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name star src/Star.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vue-svg-inline-loader": "^2.1.2",
+    "@vue/cli-service": "~4.5.0"
+  },
+  "repository": "kozmonos/vue-lite-rate"
+}

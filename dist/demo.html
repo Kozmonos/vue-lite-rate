@@ -1,0 +1,16 @@
+<meta charset="utf-8" />
+<title>star demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./star.umd.js"></script>
+
+<div id="app">
+  <demo star="3.4"></demo>
+</div>
+
+<script>
+  new Vue({
+    components: {
+      demo: star,
+    },
+  }).$mount("#app");
+</script>
